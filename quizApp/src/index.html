@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Quiz App</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="content">
+            <section class="banner-img"></section>
+            <header class="header">
+                <div class="left-title"><h1>Quiz App</h1></div>
+                <div class="right-title"><h4>Total number of questions: <span id="totQues"></span></h4></div>
+                <div class="clearfix"></div>
+            </header>
+            <div class="container">
+                <div id="quiz" class="quiz"></div>
+                <div id="result" class="result"></div>
+                <br>
+                <br>
+                <!--<button id="previous" class="btn btn-outline-primary">Previous</button>-->
+                &nbsp;
+                <button id="next" class="btn btn-outline-success">Next</button>
+                <br><br>
+                <button id="retry" class="btn  btn-outline-danger hide">Retry</button>
+                &nbsp;
+                <button id="showAnswer" class="btn  btn-outline-info hide">Show Answer</button>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
